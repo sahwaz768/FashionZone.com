@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    width: 100vw;
+    background-color: rgb(247, 247, 97);
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.Loginbtn{
+    float: right;
+}
+
+.shirtproduct{
+    display: flex;
+}
+.shirtproduct img{
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.descrip{
+    margin-left: 40px;
+    color: black;
+}
+.descrip h5{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:x-large;
+}
+.descrip p {
+    color: green;
+}
+.price{
+    display: flex;
+}
+.price s{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(65, 64, 64);
+}
+.price h7{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: green;
+}
+.descrip h6{
+    background-color: rgb(11, 184, 11);
+    border-radius: 10px;
+    width: 80px;
+    height: 37px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+.descrip select{
+width: 200px;
+padding: 5px;
+background-color: transparent;
+border-radius: 10px;
+border: 4px rgb(121, 120, 120) none;
+}
+.size{
+    margin-top: 10px;
+}
+.color-button {
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    
+}
+.color-button .active{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+.qnty{
+    margin-top: 20px;
+}
+.qntybtn{
+    display: flex;
+}
+.qntybtn button{
+    padding: 5px;
+    background-color: transparent ;
+    border-radius: 10px;
+}

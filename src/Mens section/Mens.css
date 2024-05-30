@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background-color: rgb(150, 150, 1);
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.middleimg{
+    background-image: url('./MensFashion.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}

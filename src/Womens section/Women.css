@@ -1,0 +1,53 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    background-color: rgb(247, 247, 97);
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.middleimg2{
+    background-image: url('./womensbg.jpg');
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.innerbox{
+    height: 80vh;
+    width: 50%;
+    color: white;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightbox{
+    height: 23vh;
+    width: 40%;
+}
+.rightbox p{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rightbox h2{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line{
+    display: flex;
+}
+.line input{
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    margin-left: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+}
